@@ -6,8 +6,8 @@ const useCloneBranding = true;
 export default defineConfig({
   // Branding - customize for white-label
   branding: {
-    name: "Prompts Library",
-    logo: "/logo.svg",
+    name: "Geradin Partners Prompts",
+    logo: "/favicon.svg",
     logoDark: "/logo-dark.svg",
     favicon: "/favicon.png",
     description: "Collect, organize, and share AI prompts",
