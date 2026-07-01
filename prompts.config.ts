@@ -6,7 +6,7 @@ const useCloneBranding = true;
 export default defineConfig({
   // Branding - customize for white-label
   branding: {
-    name: "Geradin Partners Prompts",
+    name: "GP Prompts",
     logo: "/logo.svg",
     logoDark: "/logo-dark.svg",
     favicon: "/favicon.svg",
@@ -24,7 +24,7 @@ export default defineConfig({
     density: "default",
     // Colors (hex or oklch)
     colors: {
-      primary: "#6366f1", // Indigo
+      primary: "#000000", // Indigo
     },
   },
 
