@@ -6,7 +6,7 @@ const useCloneBranding = true;
 export default defineConfig({
   // Branding - customize for white-label
   branding: {
-    name: "Géradin Prompts Library",
+    name: "Geradin Partners Prompts",
     logo: "/logo.svg",
     logoDark: "/logo-dark.svg",
     favicon: "/logo.svg",
@@ -32,7 +32,7 @@ export default defineConfig({
   auth: {
     // Available: "credentials" | "google" | "azure" | "github" | "apple" | "oidc" | "oauth" | custom
     // Use `providers` array to enable multiple auth providers
-    providers: ["github"],
+    providers: ["github, google"],
     // Allow public registration (only applies to credentials provider)
     allowRegistration: false,
   },
@@ -54,11 +54,11 @@ export default defineConfig({
     // Enable tags
     tags: true,
     // Enable AI-powered semantic search (requires OPENAI_API_KEY)
-    aiSearch: true,
+    aiSearch: false,
     // Enable AI-powered generation features (requires OPENAI_API_KEY)
-    aiGeneration: true,
+    aiGeneration: false,
     // Enable MCP (Model Context Protocol) features including API key generation
-    mcp: true,
+    mcp: false,
     // Enable comments on prompts
     comments: true,
   },
