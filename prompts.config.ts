@@ -34,7 +34,7 @@ export default defineConfig({
     // Use `providers` array to enable multiple auth providers
     providers: ["credentials"],
     // Allow public registration (only applies to credentials provider)
-    allowRegistration: false,
+    allowRegistration: true,
   },
 
   // Internationalization
