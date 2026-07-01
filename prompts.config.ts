@@ -9,7 +9,7 @@ export default defineConfig({
     name: "Prompts Library",
     logo: "/logo.svg",
     logoDark: "/logo-dark.svg",
-    favicon: "/logo.svg",
+    favicon: "/favicon.png",
     description: "Collect, organize, and share AI prompts",
 
   },
