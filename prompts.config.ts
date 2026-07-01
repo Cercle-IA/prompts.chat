@@ -7,7 +7,7 @@ export default defineConfig({
   // Branding - customize for white-label
   branding: {
     name: "Geradin Partners Prompts",
-    logo: "/favicon.svg",
+    logo: "/logo.svg",
     logoDark: "/logo-dark.svg",
     favicon: "/favicon.svg",
     description: "Collect, organize, and share AI prompts",
