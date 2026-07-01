@@ -9,7 +9,7 @@ export default defineConfig({
     name: "Geradin Partners Prompts",
     logo: "/favicon.svg",
     logoDark: "/logo-dark.svg",
-    favicon: "/favicon.png",
+    favicon: "/favicon.svg",
     description: "Collect, organize, and share AI prompts",
 
   },
