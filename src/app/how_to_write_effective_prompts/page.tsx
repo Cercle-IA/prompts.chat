@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { PromptWritingGuideContent } from "@/components/prompts/prompt-writing-guide-content";
 import { LanguageSwitcher } from "@/components/prompts/language-switcher";
 import { InteractiveBookBanner } from "@/components/prompts/interactive-book-banner";
+import { getConfig } from "@/lib/config";
 
 export async function generateMetadata() {
   const t = await getTranslations("promptWritingGuide");
@@ -13,6 +14,7 @@ export async function generateMetadata() {
 
 export default async function HowToWriteEffectivePromptsPage() {
   const t = await getTranslations("promptWritingGuide");
+  const config = await getConfig();
 
   return (
     <div className="container max-w-4xl py-8">
@@ -20,7 +22,7 @@ export default async function HowToWriteEffectivePromptsPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2">{t("title")}</h1>
         <p className="text-muted-foreground mb-4">{t("subtitle")}</p>
-        <LanguageSwitcher />
+        <LanguageSwitcher locales={config.i18n.locales} />
       </div>
       <PromptWritingGuideContent />
     </div>

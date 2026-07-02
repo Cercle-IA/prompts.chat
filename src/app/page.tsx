@@ -212,9 +212,11 @@ export default async function HomePage() {
             </div>
             
             {/* Mobile Hero Categories */}
-            <div className="mt-8 lg:hidden">
-              <HeroCategories />
-            </div>
+            {!useCloneBranding && (
+              <div className="mt-8 lg:hidden">
+                <HeroCategories />
+              </div>
+            )}
 
             {/* Tablet Clients Section - hidden on mobile phones */}
             {!useCloneBranding && (

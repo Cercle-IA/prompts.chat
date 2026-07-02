@@ -31,8 +31,13 @@ const languages = [
   { code: "el", name: "Ελληνικά" }
 ];
 
-export function LanguageSwitcher() {
+interface LanguageSwitcherProps {
+  locales?: string[];
+}
+
+export function LanguageSwitcher({ locales }: LanguageSwitcherProps) {
   const t = useTranslations("settings");
+  const availableLanguages = locales ? languages.filter((lang) => locales.includes(lang.code)) : languages;
 
   return (
     <DropdownMenu>
@@ -43,7 +48,7 @@ export function LanguageSwitcher() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="start" className="max-h-[300px] overflow-y-auto">
-        {languages.map((lang) => (
+        {availableLanguages.map((lang) => (
           <DropdownMenuItem
             key={lang.code}
             onClick={() => setLocale(lang.code)}

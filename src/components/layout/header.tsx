@@ -106,9 +106,11 @@ const languages = [
 interface HeaderProps {
   authProvider?: string;
   allowRegistration?: boolean;
+  locales?: string[];
 }
 
-export function Header({ authProvider = "credentials", allowRegistration = true }: HeaderProps) {
+export function Header({ authProvider = "credentials", allowRegistration = true, locales }: HeaderProps) {
+  const availableLanguages = locales ? languages.filter((lang) => locales.includes(lang.code)) : languages;
   const isOAuth = authProvider !== "credentials";
   const { data: session } = useSession();
   const t = useTranslations();
@@ -624,7 +626,7 @@ export function Header({ authProvider = "credentials", allowRegistration = true 
                     {t("settings.language")}
                   </DropdownMenuSubTrigger>
                   <DropdownMenuSubContent>
-                    {languages.map((lang) => (
+                    {availableLanguages.map((lang) => (
                       <DropdownMenuItem
                         key={lang.code}
                         onClick={() => {
@@ -657,7 +659,7 @@ export function Header({ authProvider = "credentials", allowRegistration = true 
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">
-                  {languages.map((lang) => (
+                  {availableLanguages.map((lang) => (
                     <DropdownMenuItem
                       key={lang.code}
                       onClick={() => {
