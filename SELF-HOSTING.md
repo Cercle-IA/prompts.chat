@@ -8,7 +8,7 @@
 - **Version Control** — Track prompt changes with built-in versioning and change request system (similar to PRs)
 - **Personalized Feed** — Subscribe to categories and get a curated feed of prompts matching your interests
 - **Private Prompts** — Keep your prompts private or share them with the community
-- **Voting & Leaderboard** — Upvote prompts and discover the most popular ones via PromptMasters leaderboard
+- **Voting & Leaderboard** — Upvote prompts and discover the most popular ones via the leaderboard
 - **Multi-language Support** — Available in English, Spanish, Japanese, Turkish, and Chinese
 
 ## Benefits

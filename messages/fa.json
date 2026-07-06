@@ -37,7 +37,7 @@
   "nav": {
     "collection": "مجموعه من",
     "feed": "فید",
-    "promptmasters": "پرامپت‌مسترها",
+    "leaderboard": "جدول امتیازات",
     "prompts": "پرامپت‌ها",
     "skills": "مهارت‌ها",
     "workflows": "گردش کار",
@@ -275,6 +275,11 @@
     "downloadFailed": "دانلود ناموفق بود",
     "urlCopied": "لینک در کلیپ‌بورد کپی شد",
     "failedToCopyUrl": "کپی لینک ناموفق بود",
+    "shareEmail": "ایمیل",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "این پرامپت را ببینید: {title}",
+    "shareEmailBody": "می‌خواستم این پرامپت را با شما به اشتراک بگذارم: {title}\n\n{url}",
+    "shareTeamsMessage": "این پرامپت را ببینید: {title}",
     "promptCopied": "پرامپت کپی شد",
     "promptCopiedDescription": "پرامپت در کلیپ‌بورد شما کپی شد. پس از باز کردن در {platform} آن را جایگذاری کنید.",
     "openPlatform": "باز کردن {platform}",
@@ -962,8 +967,8 @@
     "commentedOnPrompt": "روی پرامپت شما نظر داد",
     "repliedToComment": "به نظر شما پاسخ داد"
   },
-  "promptmasters": {
-    "title": "پرامپت‌مسترها",
+  "leaderboard": {
+    "title": "جدول امتیازات",
     "description": "برترین مشارکت‌کنندگان بر اساس لایک‌های دریافتی روی پرامپت‌هایشان",
     "allTime": "همه زمان‌ها",
     "thisMonth": "این ماه",

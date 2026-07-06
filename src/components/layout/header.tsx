@@ -216,11 +216,11 @@ export function Header({ authProvider = "credentials", allowRegistration = true,
                     {t("nav.skills")}
                   </Link>
                   <Link
-                    href="/promptmasters"
+                    href="/leaderboard"
                     onClick={() => setMobileMenuOpen(false)}
                     className="flex items-center gap-3 px-3 py-2.5 rounded-md text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-accent transition-colors"
                   >
-                    {t("nav.promptmasters")}
+                    {t("nav.leaderboard")}
                   </Link>
                   <Link
                     href="/workflows"
@@ -377,10 +377,10 @@ export function Header({ authProvider = "credentials", allowRegistration = true,
             {t("nav.skills")}
           </Link>
           <Link
-            href="/promptmasters"
+            href="/leaderboard"
             className="hidden xl:block px-3 py-1.5 rounded-md text-muted-foreground transition-colors hover:text-foreground hover:bg-accent"
           >
-            {t("nav.promptmasters")}
+            {t("nav.leaderboard")}
           </Link>
           <Link
             href="/workflows"
@@ -416,8 +416,8 @@ export function Header({ authProvider = "credentials", allowRegistration = true,
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild className="xl:hidden">
-                <Link href="/promptmasters">
-                  {t("nav.promptmasters")}
+                <Link href="/leaderboard">
+                  {t("nav.leaderboard")}
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild className="xl:hidden">

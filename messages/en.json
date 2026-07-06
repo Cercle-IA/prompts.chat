@@ -37,7 +37,7 @@
   "nav": {
     "collection": "My Collection",
     "feed": "Feed",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "Leaderboard",
     "prompts": "Prompts",
     "skills": "Skills",
     "workflows": "Workflows",
@@ -275,6 +275,11 @@
     "downloadFailed": "Download failed",
     "urlCopied": "Link copied to clipboard",
     "failedToCopyUrl": "Failed to copy link",
+    "shareEmail": "Email",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Check out this prompt: {title}",
+    "shareEmailBody": "I wanted to share this prompt with you: {title}\n\n{url}",
+    "shareTeamsMessage": "Check out this prompt: {title}",
     "promptCopied": "Prompt Copied",
     "promptCopiedDescription": "The prompt has been copied to your clipboard. Paste it in {platform} after opening.",
     "openPlatform": "Open {platform}",
@@ -962,8 +967,8 @@
     "commentedOnPrompt": "commented on your prompt",
     "repliedToComment": "replied to your comment"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "Leaderboard",
     "description": "Top contributors ranked by upvotes received on their prompts",
     "allTime": "All Time",
     "thisMonth": "This Month",

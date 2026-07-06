@@ -22,7 +22,7 @@ function RankBadge({ rank }: { rank: number }) {
 
 export async function HomepageLeaderboard() {
   const t = await getTranslations("discovery");
-  const tPromptmasters = await getTranslations("promptmasters");
+  const tLeaderboard = await getTranslations("leaderboard");
   const tNav = await getTranslations("nav");
 
   const { leaderboard } = await getLeaderboard("all");
@@ -38,10 +38,10 @@ export async function HomepageLeaderboard() {
         <div className="flex items-center justify-between mb-6">
           <div className="flex items-center gap-2">
             <Trophy className="h-5 w-5 text-yellow-500" />
-            <h2 className="text-xl font-semibold">{tNav("promptmasters")}</h2>
+            <h2 className="text-xl font-semibold">{tNav("leaderboard")}</h2>
           </div>
           <Button variant="ghost" size="sm" asChild>
-            <Link href="/promptmasters" prefetch={false}>
+            <Link href="/leaderboard" prefetch={false}>
               {t("viewFullLeaderboard")}
               <ArrowRight className="ml-1.5 h-4 w-4" />
             </Link>
@@ -71,11 +71,11 @@ export async function HomepageLeaderboard() {
               <div className="flex items-center gap-4 text-sm">
                 <div className="text-center">
                   <p className="font-semibold">{user.promptCount}</p>
-                  <p className="text-xs text-muted-foreground">{tPromptmasters("prompts")}</p>
+                  <p className="text-xs text-muted-foreground">{tLeaderboard("prompts")}</p>
                 </div>
                 <div className="text-center">
                   <p className="font-semibold text-primary">{user.totalUpvotes}</p>
-                  <p className="text-xs text-muted-foreground">{tPromptmasters("upvotes")}</p>
+                  <p className="text-xs text-muted-foreground">{tLeaderboard("upvotes")}</p>
                 </div>
               </div>
             </Link>

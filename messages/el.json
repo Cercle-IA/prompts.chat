@@ -37,7 +37,7 @@
   "nav": {
     "collection": "Η Συλλογή μου",
     "feed": "Ροή",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "Πίνακας κατάταξης",
     "prompts": "Prompts",
     "skills": "Δεξιότητες",
     "workflows": "Ροές εργασίας",
@@ -275,6 +275,11 @@
     "downloadFailed": "Η λήψη απέτυχε",
     "urlCopied": "Ο σύνδεσμος αντιγράφηκε",
     "failedToCopyUrl": "Αποτυχία αντιγραφής συνδέσμου",
+    "shareEmail": "Email",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Δείτε αυτό το prompt: {title}",
+    "shareEmailBody": "Ήθελα να μοιραστώ αυτό το prompt μαζί σου: {title}\n\n{url}",
+    "shareTeamsMessage": "Δείτε αυτό το prompt: {title}",
     "promptCopied": "Το Prompt αντιγράφηκε",
     "promptCopiedDescription": "Το prompt αντιγράφηκε στο πρόχειρο. Επικολλήστε το στο {platform} μετά το άνοιγμα.",
     "openPlatform": "Άνοιγμα {platform}",
@@ -988,8 +993,8 @@
     "showReplies": "Εμφάνιση {count} απαντήσεων",
     "hideReplies": "Απόκρυψη απαντήσεων"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "Πίνακας κατάταξης",
     "description": "Κορυφαίοι συνεισφέροντες καταταγμένοι με βάση τις ψήφους που έλαβαν στα prompts τους",
     "allTime": "Όλων των εποχών",
     "thisMonth": "Αυτόν τον μήνα",

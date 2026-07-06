@@ -37,7 +37,7 @@
   "nav": {
     "collection": "Mijn Collectie",
     "feed": "Feed",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "Ranglijst",
     "prompts": "Prompts",
     "skills": "Vaardigheden",
     "workflows": "Workflows",
@@ -275,6 +275,11 @@
     "downloadFailed": "Download mislukt",
     "urlCopied": "Link gekopieerd naar klembord",
     "failedToCopyUrl": "Kon link niet kopiëren",
+    "shareEmail": "E-mail",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Bekijk deze prompt: {title}",
+    "shareEmailBody": "Ik wilde deze prompt met je delen: {title}\n\n{url}",
+    "shareTeamsMessage": "Bekijk deze prompt: {title}",
     "promptCopied": "Prompt gekopieerd",
     "promptCopiedDescription": "De prompt is gekopieerd naar je klembord. Plak het in {platform} na het openen.",
     "openPlatform": "{platform} openen",
@@ -962,8 +967,8 @@
     "commentedOnPrompt": "reageerde op je prompt",
     "repliedToComment": "antwoordde op je reactie"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "Ranglijst",
     "description": "Topbijdragers gerangschikt op ontvangen upvotes op hun prompts",
     "allTime": "Altijd",
     "thisMonth": "Deze maand",

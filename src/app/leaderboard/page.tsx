@@ -1,8 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import { PromptmastersContent } from "@/components/promptmasters/promptmasters-content";
+import { LeaderboardContent } from "@/components/leaderboard/leaderboard-content";
 
-export default async function PromptmastersPage() {
-  const t = await getTranslations("promptmasters");
+export default async function LeaderboardPage() {
+  const t = await getTranslations("leaderboard");
 
   const translations = {
     title: t("title"),
@@ -18,5 +18,5 @@ export default async function PromptmastersPage() {
     sortByRatio: t("sortByRatio"),
   };
 
-  return <PromptmastersContent translations={translations} />;
+  return <LeaderboardContent translations={translations} />;
 }

@@ -37,7 +37,7 @@
   "nav": {
     "collection": "مجموعتي",
     "feed": "الخلاصة",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "لوحة المتصدرين",
     "prompts": "الأوامر",
     "skills": "المهارات",
     "workflows": "سير العمل",
@@ -288,6 +288,11 @@
     "downloadFailed": "فشل التحميل",
     "urlCopied": "تم نسخ الرابط",
     "failedToCopyUrl": "فشل نسخ الرابط",
+    "shareEmail": "البريد الإلكتروني",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "شاهد هذا الأمر: {title}",
+    "shareEmailBody": "أردت مشاركة هذا الأمر معك: {title}\n\n{url}",
+    "shareTeamsMessage": "شاهد هذا الأمر: {title}",
     "promptCopied": "تم نسخ الأمر",
     "promptCopiedDescription": "تم نسخ الأمر إلى الحافظة. الصقه في {platform} بعد فتحه.",
     "openPlatform": "فتح {platform}",
@@ -988,8 +993,8 @@
     "showReplies": "عرض {count} ردود",
     "hideReplies": "إخفاء الردود"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "لوحة المتصدرين",
     "description": "أفضل المساهمين مرتبين حسب التصويتات المستلمة على أوامرهم",
     "allTime": "كل الأوقات",
     "thisMonth": "هذا الشهر",

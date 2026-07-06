@@ -37,7 +37,7 @@
   "nav": {
     "collection": "האוסף שלי",
     "feed": "פיד",
-    "promptmasters": "מאסטרים",
+    "leaderboard": "לוח מובילים",
     "prompts": "פרומפטים",
     "skills": "כישורים",
     "workflows": "תהליכי עבודה",
@@ -275,6 +275,11 @@
     "downloadFailed": "ההורדה נכשלה",
     "urlCopied": "הקישור הועתק",
     "failedToCopyUrl": "העתקת הקישור נכשלה",
+    "shareEmail": "אימייל",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "בדוק את הפרומפט הזה: {title}",
+    "shareEmailBody": "רציתי לשתף אותך בפרומפט הזה: {title}\n\n{url}",
+    "shareTeamsMessage": "בדוק את הפרומפט הזה: {title}",
     "promptCopied": "הפרומפט הועתק",
     "promptCopiedDescription": "הפרומפט הועתק ללוח שלך. הדבק אותו ב-{platform} לאחר הפתיחה.",
     "openPlatform": "פתח {platform}",
@@ -988,8 +993,8 @@
     "showReplies": "הצג {count} תשובות",
     "hideReplies": "הסתר תשובות"
   },
-  "promptmasters": {
-    "title": "מאסטרי פרומפטים",
+  "leaderboard": {
+    "title": "לוח מובילים",
     "description": "התורמים המובילים מדורגים לפי דירוגים שהתקבלו על הפרומפטים שלהם",
     "allTime": "כל הזמנים",
     "thisMonth": "החודש",

@@ -185,7 +185,7 @@ export default function PresentationPage() {
         <MessageSquare className="w-12 h-12 text-pink-500 mb-6" />
         <SlideTitle>For Everyone</SlideTitle>
         <SlideContent>
-          Discover, collect, and learn from <SlideHighlight>Promptmasters</SlideHighlight>.
+          Discover, collect, and learn from <SlideHighlight>the leaderboard</SlideHighlight>.
           <br /><br />
           A beautifully designed, accessible platform to find exactly what you need to make AI work for you.
         </SlideContent>

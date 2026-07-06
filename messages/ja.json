@@ -37,7 +37,7 @@
   "nav": {
     "collection": "マイコレクション",
     "feed": "フィード",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "リーダーボード",
     "prompts": "プロンプト",
     "skills": "スキル",
     "workflows": "ワークフロー",
@@ -288,6 +288,11 @@
     "downloadFailed": "ダウンロード失敗",
     "urlCopied": "リンクをコピーしました",
     "failedToCopyUrl": "リンクのコピーに失敗",
+    "shareEmail": "メール",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "このプロンプトをチェックしてください: {title}",
+    "shareEmailBody": "このプロンプトを共有したいと思いました: {title}\n\n{url}",
+    "shareTeamsMessage": "このプロンプトをチェックしてください: {title}",
     "promptCopied": "プロンプトをコピーしました",
     "promptCopiedDescription": "プロンプトがクリップボードにコピーされました。{platform}を開いた後に貼り付けてください。",
     "openPlatform": "{platform}を開く",
@@ -988,8 +993,8 @@
     "showReplies": "{count}件の返信を表示",
     "hideReplies": "返信を非表示"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "リーダーボード",
     "description": "プロンプトで獲得した投票数でランクされたトップ貢献者",
     "allTime": "全期間",
     "thisMonth": "今月",

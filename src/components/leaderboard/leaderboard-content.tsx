@@ -39,7 +39,7 @@ interface Translations {
   sortByRatio: string;
 }
 
-interface PromptmastersContentProps {
+interface LeaderboardContentProps {
   translations: Translations;
 }
 
@@ -148,7 +148,7 @@ function LeaderboardList({
   );
 }
 
-export function PromptmastersContent({ translations }: PromptmastersContentProps) {
+export function LeaderboardContent({ translations }: LeaderboardContentProps) {
   const [allTime, setAllTime] = useState<LeaderboardData | null>(null);
   const [monthly, setMonthly] = useState<LeaderboardData | null>(null);
   const [weekly, setWeekly] = useState<LeaderboardData | null>(null);

@@ -37,7 +37,7 @@
   "nav": {
     "collection": "내 컬렉션",
     "feed": "피드",
-    "promptmasters": "프롬프트마스터",
+    "leaderboard": "리더보드",
     "prompts": "프롬프트",
     "skills": "스킬",
     "workflows": "워크플로우",
@@ -275,6 +275,11 @@
     "downloadFailed": "다운로드 실패",
     "urlCopied": "링크 복사됨",
     "failedToCopyUrl": "링크 복사 실패",
+    "shareEmail": "이메일",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "이 프롬프트를 확인해 보세요: {title}",
+    "shareEmailBody": "이 프롬프트를 공유하고 싶었어요: {title}\n\n{url}",
+    "shareTeamsMessage": "이 프롬프트를 확인해 보세요: {title}",
     "promptCopied": "프롬프트 복사됨",
     "promptCopiedDescription": "프롬프트가 클립보드에 복사되었습니다. {platform}을 연 후 붙여넣기 하세요.",
     "openPlatform": "{platform} 열기",
@@ -988,8 +993,8 @@
     "showReplies": "{count}개의 답글 보기",
     "hideReplies": "답글 숨기기"
   },
-  "promptmasters": {
-    "title": "프롬프트마스터",
+  "leaderboard": {
+    "title": "리더보드",
     "description": "프롬프트에서 받은 추천 수로 순위가 매겨진 최고 기여자",
     "allTime": "전체 기간",
     "thisMonth": "이번 달",

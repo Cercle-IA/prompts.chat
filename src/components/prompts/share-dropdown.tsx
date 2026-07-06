@@ -1,6 +1,7 @@
 "use client";
 
-import { Share2 } from "lucide-react";
+import { Mail, Share2 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { analyticsPrompt } from "@/lib/analytics";
 import { Button } from "@/components/ui/button";
 import {
@@ -10,20 +11,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-// Simple X/Twitter icon
-function XIcon({ className }: { className?: string }) {
+// Microsoft Teams icon
+function TeamsIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" className={className} fill="currentColor">
-      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-    </svg>
-  );
-}
-
-// Hacker News icon
-function HackerNewsIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" className={className} fill="currentColor">
-      <path d="M0 0v24h24V0H0zm12.3 13.27V18.5h-.8v-5.23L7.7 6.5h.9l3.1 5.37 3.1-5.37h.9l-3.4 6.77z" />
+      <path d="M17.5 8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm-6.75.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM24 10.5v4.25c0 2.35-1.9 4.25-4.25 4.25a4.24 4.24 0 0 1-3.29-1.56 6.75 6.75 0 0 1-12.71-3.19v-2.5a1 1 0 0 1 1-1h5.5a1 1 0 0 1 1 1v2.5a1.75 1.75 0 0 0 3.5.12V10.5a1 1 0 0 1 1-1h7.25a1 1 0 0 1 1 1zm-14.75-1H2a1 1 0 0 0-1 1v6.75A3.75 3.75 0 0 0 4.75 21a3.75 3.75 0 0 0 3.63-2.83A6.77 6.77 0 0 1 8 14.75v-2.5a2 2 0 0 1 1.25-1.85z" />
     </svg>
   );
 }
@@ -35,21 +27,29 @@ interface ShareDropdownProps {
 }
 
 export function ShareDropdown({ title, url, promptId }: ShareDropdownProps) {
-  const handleShare = (platform: "twitter" | "hackernews") => {
+  const t = useTranslations("prompts");
+
+  const handleShare = (platform: "email" | "teams") => {
     const shareUrl = url || (typeof window !== "undefined" ? window.location.href : "");
     const encodedUrl = encodeURIComponent(shareUrl);
-    let encodedTitle = encodeURIComponent(title);
-    encodedTitle = `${encodedTitle} Prompt`;
+    const promptTitle = `${title} Prompt`;
 
     let targetUrl = "";
 
-    if (platform === "twitter") {
-      targetUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`;
-    } else if (platform === "hackernews") {
-      targetUrl = `https://news.ycombinator.com/submitlink?u=${encodedUrl}&t=${encodedTitle}`;
+    if (platform === "email") {
+      const subject = encodeURIComponent(t("shareEmailSubject", { title: promptTitle }));
+      const body = encodeURIComponent(t("shareEmailBody", { title: promptTitle, url: shareUrl }));
+      targetUrl = `mailto:?subject=${subject}&body=${body}`;
+    } else if (platform === "teams") {
+      const message = encodeURIComponent(t("shareTeamsMessage", { title: promptTitle }));
+      targetUrl = `https://teams.microsoft.com/share?href=${encodedUrl}&msgText=${message}`;
     }
 
-    window.open(targetUrl, "_blank", "noopener,noreferrer");
+    if (platform === "email") {
+      window.location.href = targetUrl;
+    } else {
+      window.open(targetUrl, "_blank", "noopener,noreferrer");
+    }
     analyticsPrompt.share(promptId, platform);
   };
 
@@ -61,13 +61,13 @@ export function ShareDropdown({ title, url, promptId }: ShareDropdownProps) {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => handleShare("twitter")}>
-          <XIcon className="h-4 w-4 mr-2" />
-          X / Twitter
+        <DropdownMenuItem onClick={() => handleShare("email")}>
+          <Mail className="h-4 w-4 mr-2" />
+          {t("shareEmail")}
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => handleShare("hackernews")}>
-          <HackerNewsIcon className="h-4 w-4 mr-2" />
-          Hacker News
+        <DropdownMenuItem onClick={() => handleShare("teams")}>
+          <TeamsIcon className="h-4 w-4 mr-2" />
+          {t("shareTeams")}
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

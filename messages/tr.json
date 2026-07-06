@@ -37,7 +37,7 @@
   "nav": {
     "collection": "Koleksiyonum",
     "feed": "Akış",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "Lider Tablosu",
     "prompts": "Promptlar",
     "skills": "Yetenekler",
     "workflows": "Akışlar",
@@ -275,6 +275,11 @@
     "downloadFailed": "İndirme başarısız",
     "urlCopied": "Link kopyalandı",
     "failedToCopyUrl": "Link kopyalanamadı",
+    "shareEmail": "E-posta",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Bu prompta göz at: {title}",
+    "shareEmailBody": "Bu promptu seninle paylaşmak istedim: {title}\n\n{url}",
+    "shareTeamsMessage": "Bu prompta göz at: {title}",
     "promptCopied": "Prompt Kopyalandı",
     "promptCopiedDescription": "Prompt panoya kopyalandı. Açtıktan sonra {platform}'a yapıştırın.",
     "openPlatform": "{platform}'u Aç",
@@ -988,8 +993,8 @@
     "showReplies": "{count} yanıtı göster",
     "hideReplies": "Yanıtları gizle"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "Lider Tablosu",
     "description": "Promptlarına aldıkları oylarla sıralanan en iyi katkıda bulunanlar",
     "allTime": "Tüm Zamanlar",
     "thisMonth": "Bu Ay",

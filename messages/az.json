@@ -37,7 +37,7 @@
   "nav": {
     "collection": "Kolleksiyam",
     "feed": "Lent",
-    "promptmasters": "Promptmasterlər",
+    "leaderboard": "Liderlər lövhəsi",
     "prompts": "Promptlar",
     "skills": "Bacarıqlar",
     "workflows": "İş axınları",
@@ -275,6 +275,11 @@
     "downloadFailed": "Yükləmə uğursuz oldu",
     "urlCopied": "Link panoya kopyalandı",
     "failedToCopyUrl": "Link kopyalanmadı",
+    "shareEmail": "E-poçt",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Bu prompta baxın: {title}",
+    "shareEmailBody": "Bu promptu sizinlə bölüşmək istədim: {title}\n\n{url}",
+    "shareTeamsMessage": "Bu prompta baxın: {title}",
     "promptCopied": "Prompt Kopyalandı",
     "promptCopiedDescription": "Prompt panonuza kopyalandı. Açdıqdan sonra {platform}-a yapışdırın.",
     "openPlatform": "{platform}-u Aç",
@@ -962,8 +967,8 @@
     "commentedOnPrompt": "promptunuza şərh yazdı",
     "repliedToComment": "şərhinizə cavab verdi"
   },
-  "promptmasters": {
-    "title": "Promptmasterlər",
+  "leaderboard": {
+    "title": "Liderlər lövhəsi",
     "description": "Promptlarında alınan bəyənmələrə görə sıralanan ən yaxşı töhfə verənlər",
     "allTime": "Bütün Zamanlar",
     "thisMonth": "Bu Ay",

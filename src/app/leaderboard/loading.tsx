@@ -1,6 +1,6 @@
 import { Skeleton } from "@/components/ui/skeleton";
 
-export default function PromptmastersLoading() {
+export default function LeaderboardLoading() {
   return (
     <div className="container py-8">
       <div className="max-w-3xl mx-auto">

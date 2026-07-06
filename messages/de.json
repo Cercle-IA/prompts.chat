@@ -37,7 +37,7 @@
   "nav": {
     "collection": "Meine Sammlung",
     "feed": "Feed",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "Bestenliste",
     "prompts": "Prompts",
     "skills": "Fähigkeiten",
     "workflows": "Workflows",
@@ -275,6 +275,11 @@
     "downloadFailed": "Download fehlgeschlagen",
     "urlCopied": "Link kopiert",
     "failedToCopyUrl": "Link konnte nicht kopiert werden",
+    "shareEmail": "E-Mail",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Schau dir diesen Prompt an: {title}",
+    "shareEmailBody": "Ich wollte diesen Prompt mit dir teilen: {title}\n\n{url}",
+    "shareTeamsMessage": "Schau dir diesen Prompt an: {title}",
     "promptCopied": "Prompt kopiert",
     "promptCopiedDescription": "Der Prompt wurde in die Zwischenablage kopiert. Fügen Sie ihn in {platform} nach dem Öffnen ein.",
     "openPlatform": "{platform} öffnen",
@@ -988,8 +993,8 @@
     "showReplies": "{count} Antworten anzeigen",
     "hideReplies": "Antworten ausblenden"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "Bestenliste",
     "description": "Top-Mitwirkende nach erhaltenen Stimmen für ihre Prompts",
     "allTime": "Alle Zeiten",
     "thisMonth": "Diesen Monat",

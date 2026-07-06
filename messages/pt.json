@@ -37,7 +37,7 @@
   "nav": {
     "collection": "Minha Coleção",
     "feed": "Feed",
-    "promptmasters": "Promptmasters",
+    "leaderboard": "Classificação",
     "prompts": "Prompts",
     "skills": "Habilidades",
     "workflows": "Fluxos de trabalho",
@@ -275,6 +275,11 @@
     "downloadFailed": "Falha no download",
     "urlCopied": "Link copiado",
     "failedToCopyUrl": "Falha ao copiar link",
+    "shareEmail": "E-mail",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Confira este prompt: {title}",
+    "shareEmailBody": "Eu queria compartilhar este prompt com você: {title}\n\n{url}",
+    "shareTeamsMessage": "Confira este prompt: {title}",
     "promptCopied": "Prompt copiado",
     "promptCopiedDescription": "O prompt foi copiado para a área de transferência. Cole-o no {platform} após abrir.",
     "openPlatform": "Abrir {platform}",
@@ -988,8 +993,8 @@
     "showReplies": "Mostrar {count} respostas",
     "hideReplies": "Ocultar respostas"
   },
-  "promptmasters": {
-    "title": "Promptmasters",
+  "leaderboard": {
+    "title": "Classificação",
     "description": "Principais contribuidores classificados por votos recebidos em seus prompts",
     "allTime": "Todos os Tempos",
     "thisMonth": "Este Mês",

@@ -115,7 +115,7 @@ const commonAliasPatterns = {
   'profile': ['tProfile'],
   'report': ['tReport'],
   'promptBuilder': ['tPromptBuilder'],
-  'promptmasters': ['tPromptmasters'],
+  'leaderboard': ['tLeaderboard'],
   'connectedPrompts': ['tConnectedPrompts'],
   'notifications': ['tNotifications'],
   'apiDocs': ['tApiDocs'],

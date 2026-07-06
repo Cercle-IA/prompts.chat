@@ -37,7 +37,7 @@
   "nav": {
     "collection": "Моя Коллекция",
     "feed": "Лента",
-    "promptmasters": "Мастера промптов",
+    "leaderboard": "Таблица лидеров",
     "prompts": "Промпты",
     "skills": "Навыки",
     "workflows": "Рабочие процессы",
@@ -275,6 +275,11 @@
     "downloadFailed": "Ошибка загрузки",
     "urlCopied": "Ссылка скопирована",
     "failedToCopyUrl": "Не удалось скопировать ссылку",
+    "shareEmail": "Электронная почта",
+    "shareTeams": "Microsoft Teams",
+    "shareEmailSubject": "Посмотри этот промпт: {title}",
+    "shareEmailBody": "Я хотел поделиться с тобой этим промптом: {title}\n\n{url}",
+    "shareTeamsMessage": "Посмотри этот промпт: {title}",
     "promptCopied": "Промпт скопирован",
     "promptCopiedDescription": "Промпт скопирован в буфер обмена. Вставьте его в {platform} после открытия.",
     "openPlatform": "Открыть {platform}",
@@ -988,8 +993,8 @@
     "showReplies": "Показать {count} ответов",
     "hideReplies": "Скрыть ответы"
   },
-  "promptmasters": {
-    "title": "Мастера промптов",
+  "leaderboard": {
+    "title": "Таблица лидеров",
     "description": "Топ участников по количеству голосов за их промпты",
     "allTime": "За все время",
     "thisMonth": "За месяц",
