@@ -108,7 +108,7 @@
     "title": "Promptlar",
     "create": "Prompt Yarat",
     "createSkill": "Bacarıq Yarat",
-    "skillsDescription": "Agent Bacarıqları AI agentlərinə xüsusi qabiliyyətlər verən çox fayllı promptlardır. Claude, Cursor, Windsurf və digər AI kodlaşdırma köməkçiləri ilə istifadə edilə bilən təlimatlar, konfiqurasiyalar və dəstəkləyici fayllar daxildir.",
+    "skillsDescription": "Agent Bacarıqları AI agentlərinə xüsusi qabiliyyətlər verən çox fayllı promptlardır. AI köməkçiləri ilə istifadə edilə bilən təlimatlar, konfiqurasiyalar və dəstəkləyici fayllar daxildir.",
     "createInfo": "Bu platforma promptları işlətmir — süni intellekt promptlarını paylaşmaq və kəşf etmək üçün icma tərəfindən idarə olunan bir kitabxanadır. Promptunuzu burada yaradın və başqaları onu ChatGPT, Claude, Gemini və ya hər hansı digər LLM kimi üstünlük verdikləri AI alətlərində kopyalayıb istifadə edə bilərlər.",
     "hfDataStudio": {
       "button": "HF Data Studio",

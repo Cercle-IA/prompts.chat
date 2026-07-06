@@ -108,7 +108,7 @@
     "title": "Prompts",
     "create": "Crear Prompt",
     "createSkill": "Crear Habilidad",
-    "skillsDescription": "Las Habilidades de Agente son prompts de múltiples archivos que dan a los agentes de IA capacidades especializadas. Incluyen instrucciones, configuraciones y archivos de soporte que se pueden usar con Claude, Cursor, Windsurf y otros asistentes de codificación de IA.",
+    "skillsDescription": "Las Habilidades de Agente son prompts de múltiples archivos que dan a los agentes de IA capacidades especializadas. Incluyen instrucciones, configuraciones y archivos de soporte que se pueden usar con asistentes de IA.",
     "createInfo": "Esta plataforma no ejecuta prompts — es una biblioteca comunitaria para compartir y descubrir prompts de IA. Crea tu prompt aquí, y otros podrán copiarlo y usarlo en sus herramientas de IA favoritas como ChatGPT, Claude, Gemini o cualquier otro LLM. La comunidad también puede comentar tus prompts y sugerir mejoras a través de solicitudes de cambio.",
     "hfDataStudio": {
       "button": "HF Data Studio",

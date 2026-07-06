@@ -108,7 +108,7 @@
     "title": "Promptlar",
     "create": "Prompt Oluştur",
     "createSkill": "Yetenek Oluştur",
-    "skillsDescription": "Ajan Yetenekleri, AI ajanlara uzmanlaşmış yetenekler veren çok dosyalı promptlardır. Claude, Cursor, Windsurf ve diğer AI kodlama asistanlarıyla kullanılabilecek talimatlar, yapılandırmalar ve destek dosyaları içerirler.",
+    "skillsDescription": "Ajan Yetenekleri, AI ajanlara uzmanlaşmış yetenekler veren çok dosyalı promptlardır. AI asistanlarıyla kullanılabilecek talimatlar, yapılandırmalar ve destek dosyaları içerirler.",
     "createInfo": "Bu platform promptları çalıştırmaz — AI promptlarını paylaşmak ve keşfetmek için topluluk odaklı bir kütüphanedir. Promptunuzu burada oluşturun, diğerleri ChatGPT, Claude, Gemini veya başka herhangi bir LLM gibi tercih ettikleri AI araçlarında kopyalayıp kullanabilir. Topluluk ayrıca promptlarınıza yorum yapabilir ve değişiklik istekleri aracılığıyla iyileştirmeler önerebilir.",
     "hfDataStudio": {
       "button": "HF Veri Stüdyosu",

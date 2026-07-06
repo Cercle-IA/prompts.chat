@@ -108,7 +108,7 @@
     "title": "Prompts",
     "create": "Prompt aanmaken",
     "createSkill": "Vaardigheid aanmaken",
-    "skillsDescription": "Agent Vaardigheden zijn multi-bestand prompts die AI-agenten gespecialiseerde mogelijkheden geven. Ze bevatten instructies, configuraties en ondersteunende bestanden die kunnen worden gebruikt met Claude, Cursor, Windsurf en andere AI-coderingsassistenten.",
+    "skillsDescription": "Agent Vaardigheden zijn multi-bestand prompts die AI-agenten gespecialiseerde mogelijkheden geven. Ze bevatten instructies, configuraties en ondersteunende bestanden die kunnen worden gebruikt met AI-assistenten.",
     "createInfo": "Dit platform voert geen prompts uit — het is een door de community beheerde bibliotheek voor het delen en ontdekken van AI-prompts. Maak hier je prompt aan, en anderen kunnen het kopiëren en gebruiken in hun favoriete AI-tools zoals ChatGPT, Claude, Gemini of andere LLM's. De community kan ook reageren op je prompts en verbeteringen voorstellen via wijzigingsverzoeken.",
     "hfDataStudio": {
       "button": "HF Data Studio",

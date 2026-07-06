@@ -108,7 +108,7 @@
     "title": "Prompts",
     "create": "Prompt erstellen",
     "createSkill": "Skill erstellen",
-    "skillsDescription": "Agent Skills sind Multi-Datei-Prompts, die KI-Agenten spezialisierte Fähigkeiten verleihen. Sie enthalten Anweisungen, Konfigurationen und unterstützende Dateien, die mit Claude, Cursor, Windsurf und anderen KI-Coding-Assistenten verwendet werden können.",
+    "skillsDescription": "Agent Skills sind Multi-Datei-Prompts, die KI-Agenten spezialisierte Fähigkeiten verleihen. Sie enthalten Anweisungen, Konfigurationen und unterstützende Dateien, die mit KI-Assistenten verwendet werden können.",
     "createInfo": "Diese Plattform führt keine Prompts aus — sie ist eine community-gesteuerte Bibliothek zum Teilen und Entdecken von KI-Prompts. Erstellen Sie hier Ihren Prompt, und andere können ihn kopieren und in ihren bevorzugten KI-Tools wie ChatGPT, Claude, Gemini oder anderen LLMs verwenden. Die Community kann auch Ihre Prompts kommentieren und Verbesserungen durch Änderungsanfragen vorschlagen.",
     "hfDataStudio": {
       "button": "HF Data Studio",

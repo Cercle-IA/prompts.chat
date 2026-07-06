@@ -108,7 +108,7 @@
     "title": "Prompt",
     "create": "Crea Prompt",
     "createSkill": "Crea Competenza",
-    "skillsDescription": "Le Competenze dell'Agente sono prompt multi-file che danno agli agenti AI capacità specializzate. Includono istruzioni, configurazioni e file di supporto che possono essere utilizzati con Claude, Cursor, Windsurf e altri assistenti di codifica AI.",
+    "skillsDescription": "Le Competenze dell'Agente sono prompt multi-file che danno agli agenti AI capacità specializzate. Includono istruzioni, configurazioni e file di supporto che possono essere utilizzati con assistenti AI.",
     "createInfo": "Questa piattaforma non esegue i prompt — è una libreria comunitaria per condividere e scoprire prompt AI. Crea il tuo prompt qui, e altri potranno copiarlo e usarlo nei loro strumenti AI preferiti come ChatGPT, Claude, Gemini o qualsiasi altro LLM. La community può anche commentare i tuoi prompt e suggerire miglioramenti tramite richieste di modifica.",
     "hfDataStudio": {
       "button": "HF Data Studio",
