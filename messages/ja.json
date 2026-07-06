@@ -40,7 +40,6 @@
     "promptmasters": "Promptmasters",
     "prompts": "プロンプト",
     "skills": "スキル",
-    "taste": "Taste",
     "workflows": "ワークフロー",
     "categories": "カテゴリー",
     "tags": "タグ",
@@ -109,9 +108,7 @@
     "title": "プロンプト",
     "create": "プロンプトを作成",
     "createSkill": "スキルを作成",
-    "createTaste": "Tasteを作成",
     "skillsDescription": "エージェントスキルは、AIエージェントに専門的な機能を与えるマルチファイルプロンプトです。Claude、Cursor、Windsurf、その他のAIコーディングアシスタントで使用できる指示、設定、サポートファイルが含まれています。",
-    "tastesDescription": "Tastesは、コーディングスタイルと好みを定義する単一のマークダウンファイルです。AIコーディングエージェントがあなたのコードの書き方を学習し、規約、パターン、テイストに合わせることができます。",
     "createInfo": "このプラットフォームはプロンプトを実行しません — AIプロンプトを共有・発見するためのコミュニティライブラリです。ここでプロンプトを作成すると、他のユーザーがChatGPT、Claude、Geminiなどのお気に入りのAIツールでコピーして使用できます。コミュニティはあなたのプロンプトにコメントしたり、変更リクエストを通じて改善を提案することもできます。",
     "hfDataStudio": {
       "button": "HF Data Studio",
@@ -193,8 +190,7 @@
       "audio": "音声",
       "structured": "構造化",
       "document": "ドキュメント",
-      "skill": "スキル",
-      "taste": "Taste"
+      "skill": "スキル"
     },
     "inputType": "ユーザープロンプト",
     "outputType": "AI応答",
@@ -204,8 +200,7 @@
     "inputTypes": {
       "text": "テキストプロンプト",
       "structured": "構造化 (JSON/YAML)",
-      "skill": "スキル (Agent Skills)",
-      "taste": "Taste (Coding Taste)"
+      "skill": "スキル (Agent Skills)"
     },
     "outputTypes": {
       "text": "テキスト",
@@ -913,7 +908,8 @@
     "todaysMostUpvoted": "今日最も投票された",
     "latestPrompts": "最新のプロンプト",
     "recentlyUpdated": "最近更新",
-    "mostContributed": "最も貢献されたプロンプト"
+    "mostContributed": "最も貢献されたプロンプト",
+    "viewFullLeaderboard": "ランキングをすべて見る"
   },
   "homepage": {
     "heroTitle": "AIプロンプトの自由な",
@@ -929,7 +925,7 @@
     "beStargazer": "GitHubで{count}番目のスターになる",
     "ourHistory": "私たちの歴史について詳しく見る",
     "browsePrompts": "プロンプトを見る",
-    "viewFeed": "フィードを見る",
+    "viewPrompts": "プロンプトを見る",
     "readyToStart": "始める準備はできましたか？",
     "freeAndOpen": "無料でオープンソース。",
     "createAccount": "アカウントを作成",
@@ -1743,4 +1739,3 @@
     }
   }
 }
-

@@ -5,6 +5,7 @@ import { db } from "@/lib/db";
 import { Button } from "@/components/ui/button";
 import { Masonry } from "@/components/ui/masonry";
 import { PromptCard } from "@/components/prompts/prompt-card";
+import { HomepageLeaderboard } from "@/components/prompts/homepage-leaderboard";
 
 interface DiscoveryPromptsProps {
   isHomepage?: boolean;
@@ -231,6 +232,9 @@ export async function DiscoveryPrompts({ isHomepage = false }: DiscoveryPromptsP
           </div>
         </section>
       )}
+
+      {/* Leaderboard Section (homepage only) */}
+      {isHomepage && <HomepageLeaderboard />}
 
       {/* Most Contributed Section */}
       {mostContributed.length > 0 && (

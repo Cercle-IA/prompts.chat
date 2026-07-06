@@ -40,7 +40,6 @@
     "promptmasters": "Promptmasters",
     "prompts": "Prompts",
     "skills": "Compétences",
-    "taste": "Taste",
     "workflows": "Flux de travail",
     "categories": "Catégories",
     "tags": "Tags",
@@ -109,9 +108,7 @@
     "title": "Prompts",
     "create": "Créer un Prompt",
     "createSkill": "Créer une Compétence",
-    "createTaste": "Créer un Taste",
     "skillsDescription": "Les Compétences d'Agent sont des prompts multi-fichiers qui donnent aux agents IA des capacités spécialisées. Ils comprennent des instructions, des configurations et des fichiers de support qui peuvent être utilisés avec Claude, Cursor, Windsurf et d'autres assistants de codage IA.",
-    "tastesDescription": "Les Tastes sont des fichiers markdown uniques qui définissent votre style de codage et vos préférences. Ils aident les agents de codage IA à apprendre comment vous écrivez du code, afin qu'ils puissent correspondre à vos conventions, modèles et goût.",
     "createInfo": "Cette plateforme n'exécute pas les prompts — c'est une bibliothèque communautaire pour partager et découvrir des prompts IA. Créez votre prompt ici, et d'autres pourront le copier et l'utiliser dans leurs outils IA préférés comme ChatGPT, Claude, Gemini ou tout autre LLM. La communauté peut également commenter vos prompts et suggérer des améliorations via des demandes de modification.",
     "hfDataStudio": {
       "button": "HF Data Studio",
@@ -193,8 +190,7 @@
       "audio": "Audio",
       "structured": "Structuré",
       "document": "Document",
-      "skill": "Compétence",
-      "taste": "Taste"
+      "skill": "Compétence"
     },
     "inputType": "Prompt Utilisateur",
     "outputType": "Réponse IA",
@@ -204,8 +200,7 @@
     "inputTypes": {
       "text": "Prompt Texte",
       "structured": "Structuré (JSON/YAML)",
-      "skill": "Compétence (Agent Skills)",
-      "taste": "Taste (Coding Taste)"
+      "skill": "Compétence (Agent Skills)"
     },
     "outputTypes": {
       "text": "Texte",
@@ -913,7 +908,8 @@
     "todaysMostUpvoted": "Les Plus Votés Aujourd'hui",
     "latestPrompts": "Derniers Prompts",
     "recentlyUpdated": "Récemment Mis à Jour",
-    "mostContributed": "Les Plus Contribués"
+    "mostContributed": "Les Plus Contribués",
+    "viewFullLeaderboard": "Voir le classement complet"
   },
   "homepage": {
     "heroTitle": "La Plateforme Sociale Libre pour",
@@ -929,7 +925,7 @@
     "beStargazer": "Soyez le {count}ème stargazer sur GitHub",
     "ourHistory": "En savoir plus sur notre histoire",
     "browsePrompts": "Parcourir les Prompts",
-    "viewFeed": "Voir le Flux",
+    "viewPrompts": "Voir les prompts",
     "readyToStart": "Prêt à commencer ?",
     "freeAndOpen": "Gratuit et open source.",
     "createAccount": "Créer un Compte",
@@ -1743,4 +1739,3 @@
     }
   }
 }
-

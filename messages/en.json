@@ -40,7 +40,6 @@
     "promptmasters": "Promptmasters",
     "prompts": "Prompts",
     "skills": "Skills",
-    "taste": "Taste",
     "workflows": "Workflows",
     "categories": "Categories",
     "tags": "Tags",
@@ -109,9 +108,7 @@
     "title": "Prompts",
     "create": "Create Prompt",
     "createSkill": "Create Skill",
-    "createTaste": "Create Taste",
     "skillsDescription": "Agent Skills are multi-file prompts that give AI agents specialized capabilities. They include instructions, configurations, and supporting files that can be used with Claude, Cursor, Windsurf, and other AI coding assistants.",
-    "tastesDescription": "Tastes are single markdown files that define your coding style and preferences. They help AI coding agents learn how you write code, so they can match your conventions, patterns, and taste.",
     "createInfo": "This platform doesn't run or execute prompts — it's a community-driven library for sharing and discovering AI prompts. Create your prompt here, and others can copy and use it in their preferred AI tools like ChatGPT, Claude, Gemini, or any other LLM. The community can also comment on your prompts and suggest improvements through change requests.",
     "hfDataStudio": {
       "button": "HF Data Studio",
@@ -193,8 +190,7 @@
       "audio": "Audio",
       "structured": "Structured",
       "document": "Document",
-      "skill": "Skill",
-      "taste": "Taste"
+      "skill": "Skill"
     },
     "inputType": "User Prompt",
     "outputType": "AI Response",
@@ -204,8 +200,7 @@
     "inputTypes": {
       "text": "Text Prompt",
       "structured": "Structured (JSON/YAML)",
-      "skill": "Skill (Agent Skills)",
-      "taste": "Taste (Coding Taste)"
+      "skill": "Skill (Agent Skills)"
     },
     "outputTypes": {
       "text": "Text",
@@ -913,7 +908,8 @@
     "todaysMostUpvoted": "Today's Most Upvoted",
     "latestPrompts": "Latest Prompts",
     "recentlyUpdated": "Recently Updated",
-    "mostContributed": "Most Contributed"
+    "mostContributed": "Most Contributed",
+    "viewFullLeaderboard": "View full leaderboard"
   },
   "homepage": {
     "heroTitle": "The Free Social Platform for",
@@ -929,7 +925,7 @@
     "beStargazer": "Be the {count}{ordinal} stargazer on GitHub",
     "ourHistory": "Read more about our history",
     "browsePrompts": "Browse Prompts",
-    "viewFeed": "View Feed",
+    "viewPrompts": "View prompts",
     "readyToStart": "Ready to get started?",
     "freeAndOpen": "Free and open source.",
     "createAccount": "Create Account",
@@ -1743,4 +1739,3 @@
     }
   }
 }
-

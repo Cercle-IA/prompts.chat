@@ -40,7 +40,6 @@
     "promptmasters": "Promptmasters",
     "prompts": "Prompts",
     "skills": "Vaardigheden",
-    "taste": "Taste",
     "workflows": "Workflows",
     "categories": "Categorieën",
     "tags": "Tags",
@@ -109,9 +108,7 @@
     "title": "Prompts",
     "create": "Prompt aanmaken",
     "createSkill": "Vaardigheid aanmaken",
-    "createTaste": "Taste aanmaken",
     "skillsDescription": "Agent Vaardigheden zijn multi-bestand prompts die AI-agenten gespecialiseerde mogelijkheden geven. Ze bevatten instructies, configuraties en ondersteunende bestanden die kunnen worden gebruikt met Claude, Cursor, Windsurf en andere AI-coderingsassistenten.",
-    "tastesDescription": "Tastes zijn enkele markdown-bestanden die je codeerstijl en voorkeuren definiëren. Ze helpen AI-coderingsagenten te leren hoe je code schrijft, zodat ze je conventies, patronen en smaak kunnen overnemen.",
     "createInfo": "Dit platform voert geen prompts uit — het is een door de community beheerde bibliotheek voor het delen en ontdekken van AI-prompts. Maak hier je prompt aan, en anderen kunnen het kopiëren en gebruiken in hun favoriete AI-tools zoals ChatGPT, Claude, Gemini of andere LLM's. De community kan ook reageren op je prompts en verbeteringen voorstellen via wijzigingsverzoeken.",
     "hfDataStudio": {
       "button": "HF Data Studio",
@@ -193,8 +190,7 @@
       "audio": "Audio",
       "structured": "Gestructureerd",
       "document": "Document",
-      "skill": "Vaardigheid",
-      "taste": "Taste"
+      "skill": "Vaardigheid"
     },
     "inputType": "Gebruikersprompt",
     "outputType": "AI-antwoord",
@@ -204,8 +200,7 @@
     "inputTypes": {
       "text": "Tekstprompt",
       "structured": "Gestructureerd (JSON/YAML)",
-      "skill": "Vaardigheid (Agent Skills)",
-      "taste": "Taste (Coding Taste)"
+      "skill": "Vaardigheid (Agent Skills)"
     },
     "outputTypes": {
       "text": "Tekst",
@@ -913,7 +908,8 @@
     "todaysMostUpvoted": "Meest gestemd vandaag",
     "latestPrompts": "Nieuwste prompts",
     "recentlyUpdated": "Recent bijgewerkt",
-    "mostContributed": "Meeste bijdragen"
+    "mostContributed": "Meeste bijdragen",
+    "viewFullLeaderboard": "Volledig klassement bekijken"
   },
   "homepage": {
     "heroTitle": "Het gratis sociale platform voor",
@@ -929,7 +925,7 @@
     "beStargazer": "Word de {count}{ordinal} stargazer op GitHub",
     "ourHistory": "Lees meer over onze geschiedenis",
     "browsePrompts": "Prompts bekijken",
-    "viewFeed": "Feed bekijken",
+    "viewPrompts": "Prompts bekijken",
     "readyToStart": "Klaar om te beginnen?",
     "freeAndOpen": "Gratis en open source.",
     "createAccount": "Account aanmaken",
@@ -1743,4 +1739,3 @@
     }
   }
 }
-

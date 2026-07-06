@@ -578,18 +578,6 @@ export default async function PromptPage({ params }: PromptPageProps) {
                 promptId={prompt.id}
                 promptSlug={prompt.slug ?? undefined}
               />
-            ) : prompt.type === "TASTE" ? (
-              <InteractivePromptContent 
-                content={prompt.content} 
-                title="taste.md"
-                isLoggedIn={!!session?.user}
-                promptId={prompt.id}
-                promptSlug={prompt.slug ?? undefined}
-                promptType={prompt.type}
-                shareTitle={prompt.title}
-                promptTitle={prompt.title}
-                promptDescription={prompt.description ?? undefined}
-              />
             ) : prompt.structuredFormat ? (
               <InteractivePromptContent 
                 content={prompt.content} 
@@ -679,8 +667,8 @@ export default async function PromptPage({ params }: PromptPageProps) {
             </div>
           )}
 
-          {/* Report & Prompt Flow - hide for SKILL and TASTE types */}
-          {prompt.type !== "SKILL" && prompt.type !== "TASTE" && (
+          {/* Report & Prompt Flow - hide for SKILL type */}
+          {prompt.type !== "SKILL" && (
             <PromptFlowSection
               promptId={prompt.id}
               promptTitle={prompt.title}

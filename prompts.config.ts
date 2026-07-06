@@ -10,7 +10,7 @@ export default defineConfig({
     logo: "/logo.svg",
     logoDark: "/logo-dark.svg",
     favicon: "/favicon.svg",
-    description: "Collect, organize, and share AI prompts",
+    description: "Collect, organize, and share AI prompts and skills",
 
   },
 

@@ -167,8 +167,8 @@ export default async function HomePage() {
             <div className="mt-10 flex flex-col gap-4">
               <div className="flex flex-wrap gap-3">
                 <Button size="lg" asChild>
-                  <Link href={session ? "/feed" : "/prompts"}>
-                    {session ? tHomepage("viewFeed") : tHomepage("browsePrompts")}
+                  <Link href="#prompts">
+                    {tHomepage("viewPrompts")}
                     <ArrowRight className="ml-1.5 h-4 w-4" />
                   </Link>
                 </Button>
@@ -508,7 +508,9 @@ export default async function HomePage() {
       )}
 
       {/* Featured & Latest Prompts Section */}
-      <DiscoveryPrompts isHomepage />
+      <div id="prompts">
+        <DiscoveryPrompts isHomepage />
+      </div>
 
       {/* CTA Section - only show if not using clone branding */}
       {!useCloneBranding && (

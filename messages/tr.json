@@ -40,7 +40,6 @@
     "promptmasters": "Promptmasters",
     "prompts": "Promptlar",
     "skills": "Yetenekler",
-    "taste": "Taste",
     "workflows": "Akışlar",
     "categories": "Kategoriler",
     "tags": "Etiketler",
@@ -109,9 +108,7 @@
     "title": "Promptlar",
     "create": "Prompt Oluştur",
     "createSkill": "Yetenek Oluştur",
-    "createTaste": "Taste Oluştur",
     "skillsDescription": "Ajan Yetenekleri, AI ajanlara uzmanlaşmış yetenekler veren çok dosyalı promptlardır. Claude, Cursor, Windsurf ve diğer AI kodlama asistanlarıyla kullanılabilecek talimatlar, yapılandırmalar ve destek dosyaları içerirler.",
-    "tastesDescription": "Tastes, kodlama tarzınızı ve tercihlerinizi tanımlayan tek markdown dosyalarıdır. AI kodlama ajanlarının kodunuzu nasıl yazdığınızı öğrenmesine yardımcı olur, böylece kurallarınıza, kalıplarınıza ve zevkinize uyum sağlayabilirler.",
     "createInfo": "Bu platform promptları çalıştırmaz — AI promptlarını paylaşmak ve keşfetmek için topluluk odaklı bir kütüphanedir. Promptunuzu burada oluşturun, diğerleri ChatGPT, Claude, Gemini veya başka herhangi bir LLM gibi tercih ettikleri AI araçlarında kopyalayıp kullanabilir. Topluluk ayrıca promptlarınıza yorum yapabilir ve değişiklik istekleri aracılığıyla iyileştirmeler önerebilir.",
     "hfDataStudio": {
       "button": "HF Veri Stüdyosu",
@@ -193,8 +190,7 @@
       "audio": "Ses",
       "structured": "Yapılandırılmış",
       "document": "Doküman",
-      "skill": "Yetenek",
-      "taste": "Taste"
+      "skill": "Yetenek"
     },
     "inputType": "Kullanıcı Promptu",
     "outputType": "AI Yanıtı",
@@ -204,8 +200,7 @@
     "inputTypes": {
       "text": "Metin Promptu",
       "structured": "Yapılandırılmış (JSON/YAML)",
-      "skill": "Yetenek (Agent Skills)",
-      "taste": "Taste (Coding Taste)"
+      "skill": "Yetenek (Agent Skills)"
     },
     "outputTypes": {
       "text": "Metin",
@@ -913,7 +908,8 @@
     "todaysMostUpvoted": "Bugün En Çok Oy Alanlar",
     "latestPrompts": "En Son Promptlar",
     "recentlyUpdated": "Son Güncellenenler",
-    "mostContributed": "En Çok Katkı Alanlar"
+    "mostContributed": "En Çok Katkı Alanlar",
+    "viewFullLeaderboard": "Tüm sıralamayı görüntüle"
   },
   "homepage": {
     "heroTitle": "AI Promptları için Özgür",
@@ -929,7 +925,7 @@
     "beStargazer": "GitHub'da {count}. yıldız veren ol",
     "ourHistory": "Tarihçemiz hakkında daha fazla bilgi",
     "browsePrompts": "Promptlara Göz At",
-    "viewFeed": "Akışı Görüntüle",
+    "viewPrompts": "Promptları Görüntüle",
     "readyToStart": "Başlamaya hazır mısınız?",
     "freeAndOpen": "Özgür ve açık kaynak.",
     "createAccount": "Hesap Oluştur",
@@ -1743,4 +1739,3 @@
     }
   }
 }
-

@@ -40,7 +40,6 @@
     "promptmasters": "מאסטרים",
     "prompts": "פרומפטים",
     "skills": "כישורים",
-    "taste": "Taste",
     "workflows": "תהליכי עבודה",
     "categories": "קטגוריות",
     "tags": "תגיות",
@@ -109,9 +108,7 @@
     "title": "פרומפטים",
     "create": "יצירת פרומפט",
     "createSkill": "יצירת מיומנות",
-    "createTaste": "יצירת Taste",
     "skillsDescription": "מיומנויות סוכן הן פרומפטים מרובי קבצים שמעניקים לסוכני AI יכולות מתמחות. הן כוללות הוראות, הגדרות וקבצי תמיכה שניתן להשתמש בהם עם Claude, Cursor, Windsurf ועוזרי קידוד AI אחרים.",
-    "tastesDescription": "Tastes הם קבצי markdown בודדים שמגדירים את סגנון הקידוד וההעדפות שלך. הם עוזרים לסוכני קידוד AI ללמוד איך אתה כותב קוד, כך שיוכלו להתאים למוסכמות, לדפוסים ולטעם שלך.",
     "createInfo": "פלטפורמה זו לא מריצה פרומפטים — היא ספרייה קהילתית לשיתוף וגילוי פרומפטים של AI. צור את הפרומפט שלך כאן, ואחרים יוכלו להעתיק ולהשתמש בו בכלי ה-AI המועדפים עליהם כמו ChatGPT, Claude, Gemini או כל LLM אחר. הקהילה יכולה גם להגיב על הפרומפטים שלך ולהציע שיפורים דרך בקשות שינוי.",
     "hfDataStudio": {
       "button": "HF Data Studio",
@@ -193,8 +190,7 @@
       "audio": "אודיו",
       "structured": "מובנה",
       "document": "מסמך",
-      "skill": "מיומנות",
-      "taste": "Taste"
+      "skill": "מיומנות"
     },
     "inputType": "פרומפט משתמש",
     "outputType": "תגובת AI",
@@ -204,8 +200,7 @@
     "inputTypes": {
       "text": "פרומפט טקסט",
       "structured": "מובנה (JSON/YAML)",
-      "skill": "מיומנות (Agent Skills)",
-      "taste": "Taste (Coding Taste)"
+      "skill": "מיומנות (Agent Skills)"
     },
     "outputTypes": {
       "text": "טקסט",
@@ -913,7 +908,8 @@
     "todaysMostUpvoted": "המדורגים ביותר היום",
     "latestPrompts": "פרומפטים אחרונים",
     "recentlyUpdated": "עודכנו לאחרונה",
-    "mostContributed": "עם הכי הרבה תרומות"
+    "mostContributed": "עם הכי הרבה תרומות",
+    "viewFullLeaderboard": "צפה בטבלת המצטיינים המלאה"
   },
   "homepage": {
     "heroTitle": "הפלטפורמה החברתית החופשית ל",
@@ -929,7 +925,7 @@
     "beStargazer": "היה הכוכב ה-{count}{ordinal} ב-GitHub",
     "ourHistory": "קרא עוד על ההיסטוריה שלנו",
     "browsePrompts": "עיין בפרומפטים",
-    "viewFeed": "צפה בפיד",
+    "viewPrompts": "צפה בפרומפטים",
     "readyToStart": "מוכן להתחיל?",
     "freeAndOpen": "חינם וקוד פתוח.",
     "createAccount": "צור חשבון",
@@ -1743,4 +1739,3 @@
     }
   }
 }
-

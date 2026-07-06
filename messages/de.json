@@ -40,7 +40,6 @@
     "promptmasters": "Promptmasters",
     "prompts": "Prompts",
     "skills": "Fähigkeiten",
-    "taste": "Taste",
     "workflows": "Workflows",
     "categories": "Kategorien",
     "tags": "Tags",
@@ -109,9 +108,7 @@
     "title": "Prompts",
     "create": "Prompt erstellen",
     "createSkill": "Skill erstellen",
-    "createTaste": "Taste erstellen",
     "skillsDescription": "Agent Skills sind Multi-Datei-Prompts, die KI-Agenten spezialisierte Fähigkeiten verleihen. Sie enthalten Anweisungen, Konfigurationen und unterstützende Dateien, die mit Claude, Cursor, Windsurf und anderen KI-Coding-Assistenten verwendet werden können.",
-    "tastesDescription": "Tastes sind einzelne Markdown-Dateien, die Ihren Codierstil und Ihre Vorlieben definieren. Sie helfen KI-Coding-Agenten zu lernen, wie Sie Code schreiben, damit sie Ihre Konventionen, Muster und Ihren Geschmack übernehmen können.",
     "createInfo": "Diese Plattform führt keine Prompts aus — sie ist eine community-gesteuerte Bibliothek zum Teilen und Entdecken von KI-Prompts. Erstellen Sie hier Ihren Prompt, und andere können ihn kopieren und in ihren bevorzugten KI-Tools wie ChatGPT, Claude, Gemini oder anderen LLMs verwenden. Die Community kann auch Ihre Prompts kommentieren und Verbesserungen durch Änderungsanfragen vorschlagen.",
     "hfDataStudio": {
       "button": "HF Data Studio",
@@ -193,8 +190,7 @@
       "audio": "Audio",
       "structured": "Strukturiert",
       "document": "Dokument",
-      "skill": "Skill",
-      "taste": "Taste"
+      "skill": "Skill"
     },
     "inputType": "Benutzer-Prompt",
     "outputType": "KI-Antwort",
@@ -204,8 +200,7 @@
     "inputTypes": {
       "text": "Text-Prompt",
       "structured": "Strukturiert (JSON/YAML)",
-      "skill": "Skill (Agent Skills)",
-      "taste": "Taste (Coding Taste)"
+      "skill": "Skill (Agent Skills)"
     },
     "outputTypes": {
       "text": "Text",
@@ -913,7 +908,8 @@
     "todaysMostUpvoted": "Heute am meisten bewertet",
     "latestPrompts": "Neueste Prompts",
     "recentlyUpdated": "Kürzlich aktualisiert",
-    "mostContributed": "Meiste Beiträge"
+    "mostContributed": "Meiste Beiträge",
+    "viewFullLeaderboard": "Vollständige Rangliste anzeigen"
   },
   "homepage": {
     "heroTitle": "Die freie soziale Plattform für",
@@ -929,7 +925,7 @@
     "beStargazer": "Werden Sie der {count}. Stargazer auf GitHub",
     "ourHistory": "Mehr über unsere Geschichte",
     "browsePrompts": "Prompts durchsuchen",
-    "viewFeed": "Feed anzeigen",
+    "viewPrompts": "Prompts anzeigen",
     "readyToStart": "Bereit loszulegen?",
     "freeAndOpen": "Kostenlos und Open Source.",
     "createAccount": "Konto erstellen",
@@ -1743,4 +1739,3 @@
     }
   }
 }
-
