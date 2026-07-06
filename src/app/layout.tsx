@@ -60,14 +60,6 @@ export const metadata: Metadata = {
   authors: [{ name: "prompts.chat community" }],
   creator: "prompts.chat",
   publisher: "prompts.chat",
-  robots: {
-    index: false,
-    follow: false,
-    googleBot: {
-      index: false,
-      follow: false,
-    },
-  },
   icons: {
     icon: [
       { url: "/favicon/favicon.svg", type: "image/svg+xml" },
